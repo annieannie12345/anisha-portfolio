@@ -22,3 +22,11 @@ The resume is served from `public/Anisha_Gupta_Resume.pdf` and downloaded by the
 ## Deploy with Vercel
 
 Import this repository in Vercel, keep the detected Next.js framework settings, and deploy. No environment variables are required for the current site.
+
+## Live Portfolio & Deployment
+
+- **Live Portfolio:** [https://anisha-portfolio-anishateam.vercel.app](https://anisha-portfolio-anishateam.vercel.app)
+- **GitHub Repository:** [https://github.com/annieannie12345/anisha-portfolio](https://github.com/annieannie12345/anisha-portfolio)
+- **GitHub Profile:** [https://github.com/annieannie12345](https://github.com/annieannie12345)
+- **Hosting & Deployment:** Deployed using Vercel.
+- **Continuous Deployment:** The GitHub `main` branch is connected to Vercel, so every successful push to `main` automatically triggers a new production deployment.
