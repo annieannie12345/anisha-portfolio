@@ -57,4 +57,18 @@ export const projects: Project[] = [
     accent: "teal",
     github: "https://github.com/annieannie12345/credit-risk-prediction",
   },
+  {
+    slug: "ai-engineering-chatbot",
+    number: "04",
+    title: "AI Engineering Chatbot",
+    eyebrow: "Generative AI · Retrieval-augmented generation",
+    summary: "An interactive AI tutor that answers engineering questions with context retrieved from a Pinecone knowledge base.",
+    description: "A Flask-based AI Engineering tutor built with LangChain, Ollama and Pinecone. It retrieves relevant knowledge before generating beginner-friendly explanations, and supports streaming responses through a web chat interface.",
+    technologies: ["Python", "Flask", "LangChain", "Ollama", "Pinecone", "Qwen2.5", "nomic-embed-text", "HTML", "CSS", "JavaScript"],
+    highlights: ["Retrieval-augmented answers for AI Engineering topics", "Pinecone vector search over ingested knowledge", "Local Ollama chat and embedding models", "Streaming responses and stop-generation control", "Web chat interface built with HTML, CSS and JavaScript"],
+    workflow: ["The user submits a question through the web chat interface.", "Ollama creates an embedding for the question.", "Pinecone retrieves relevant knowledge, which LangChain places into the prompt context.", "The local Qwen2.5 chat model generates a response that streams back to the user."],
+    outcome: "Provides an interactive way to explore RAG and learn AI Engineering concepts using retrieved context and local Ollama models.",
+    accent: "violet",
+    github: "https://github.com/annieannie12345/ai-engineering-chatbot",
+  },
 ];
