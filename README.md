@@ -1,5 +1,11 @@
 # Anisha Gupta — Portfolio
 
+## 🌐 Live Portfolio
+
+**Visit my Portfolio:** [https://anisha-portfolio-anishateam.vercel.app](https://anisha-portfolio-anishateam.vercel.app)
+
+**Deployed on:** Vercel
+
 A responsive Next.js portfolio for Anisha Gupta. It includes project detail routes, a configurable project video component, and the provided resume download.
 
 ## Run locally
@@ -11,7 +17,7 @@ pnpm install
 pnpm dev
 ```
 
-Open http://localhost:3000. To make a production build, run `pnpm build` and then `pnpm start`.
+For a local preview, open http://localhost:3000. To make a production build, run `pnpm build` and then `pnpm start`.
 
 ## Update project links and videos
 
